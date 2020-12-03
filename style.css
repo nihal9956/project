@@ -128,11 +128,25 @@ body {
   width: 25rem;
 }
 
-.col__img :hover {
-  transform: scale(1.2);
+.col__img {
+  transition: 0.2s all;
   cursor: pointer;
-  filter: grayscale(0);
-  transition: transform 0.2s ease-in;
+}
+
+.img__wrapper:hover .col__img {
+  filter: blur(3px);
+  opacity: 0.7;
+
+  transform: scale(0.91);
+  transition: transform 0.2s all;
+  box-shadow: none;
+  filter: grayscale(100%);
+}
+.img__wrapper:hover .col__img:hover {
+  transform: scale(1.1);
+  filter: blur(0px);
+  transition: transform 0.2s all;
+  opacity: 1;
 }
 .zigzag {
   margin-top: -180px;
@@ -389,4 +403,212 @@ ul li a {
 p {
   text-align: center;
   color: gray;
+}
+
+/* media queries */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .whatsApp {
+    margin-left: 2rem;
+    width: 3rem;
+  }
+  .starting__para {
+    font-size: 1.2rem !important;
+  }
+  .main__heading {
+    font-size: 2.5rem !important;
+  }
+  .heading__container > :nth-child(3) {
+    font-size: 2.2rem !important;
+  }
+  .heading__container > :nth-child(4) {
+    font-size: 2.2rem !important;
+  }
+  .computer {
+    width: 35rem;
+    margin-top: 5rem;
+  }
+  .curve {
+    margin-top: -17rem !important;
+  }
+  .img__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 6rem;
+  }
+  .card__row {
+    margin-top: -2rem;
+  }
+  .col__img > img {
+    padding-top: 2rem !important;
+  }
+  .attention__card {
+    width: 30rem;
+  }
+  .attention__card > h2 {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .heading > h1 {
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  .second__card > h1 {
+    text-align: center;
+    font-size: 1.8rem !important;
+  }
+  .achievment > h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .achievment__img > img {
+    width: 25rem;
+    height: 10rem;
+  }
+
+  .second__achievment__img {
+    margin-left: 7rem;
+  }
+  .second__achievment__img > img {
+    margin-left: 0 !important;
+  }
+  .second__achievment__img > img {
+    width: 20rem !important;
+    padding-top: 2rem;
+  }
+
+  .section > h1 {
+    font-size: 1.8rem !important;
+  }
+  .degree > h1 {
+    font-size: 1.8rem !important;
+  }
+  .make__money > h1,
+  .per__hour > h1,
+  .achievment > h1,
+  .Psychological__Warfare > h1,
+  .agency > h1,
+  .infomarketing > h1,
+  .courses > h1,
+  .testimonials > h1,
+  .Infomarketing_for_Baboons > h1,
+  .testimonials__by__students > h1,
+  .big__lucka > h1 {
+    font-size: 1.8rem !important;
+  }
+  .infomarketing > img {
+    width: 35rem;
+  }
+  iframe {
+    width: 300px !important;
+  }
+  .last__col {
+    margin-right: 7.5rem !important;
+  }
+  .profile__img {
+    width: 35rem;
+    height: 50rem;
+    object-fit: fill;
+  }
+
+  .points {
+    top: 6rem;
+  }
+  .points > h3 {
+    font-size: 0.7rem !important;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  ul li a {
+    font-size: 1rem;
+
+    margin-right: 2rem;
+  }
+
+  p {
+    text-align: center;
+    color: gray;
+    padding-bottom: 2rem;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main__heading {
+    font-size: 5rem !important;
+  }
+  .heading > h1 {
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+
+  .attention__card > h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .second__card > h1 {
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+
+  .achievment > h1 {
+    font-size: 2.5rem !important;
+  }
+  .achievment__img > img {
+    width: 60rem;
+  }
+  .section > h1 {
+    font-size: 4rem !important;
+  }
+  .degree > h1 {
+    font-size: 4rem !important;
+  }
+  .achievment > h1,
+  .Psychological__Warfare > h1,
+  .agency > h1 {
+    font-size: 4rem !important;
+  }
+  .infomarketing > img {
+    width: 60rem;
+  }
+
+  .img__col > img {
+    width: 22rem;
+    padding-right: 1rem;
+  }
+  .two__img {
+    margin-right: 1rem;
+    margin-left: 11rem;
+  }
+  .profile__img {
+    width: 70rem;
+  }
+  .points {
+    top: 7rem;
+  }
+  .points > h3 {
+    font-size: 0.9rem !important;
+  }
+  .img__wrapper {
+    flex-direction: row;
+    align-items: center;
+    margin-left: -3%;
+  }
+  .col__img > img {
+    width: 20rem;
+    padding-right: 1rem;
+  }
+  iframe {
+    width: 150px;
+    height: 100px;
+  }
 }
