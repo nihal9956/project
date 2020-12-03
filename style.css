@@ -539,6 +539,10 @@ p {
     color: gray;
     padding-bottom: 2rem;
   }
+  .two__img {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
