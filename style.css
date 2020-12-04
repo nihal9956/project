@@ -556,7 +556,9 @@ p {
   }
 
   .card__row {
-    padding-left: 5rem;
+    align-items: center;
+    justify-content: flex-end !important;
+    padding-left: 2rem;
   }
 
   .attention__card > h2 {
@@ -613,7 +615,7 @@ p {
   }
   .col__img > img {
     width: 20rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
   iframe {
     width: 150px;
