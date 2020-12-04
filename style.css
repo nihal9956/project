@@ -634,3 +634,15 @@ p {
     margin-top: -1rem;
   }
 }
+
+/* very large screen to 4k */
+
+@media only screen and (min-device-width: 1885px) and (max-device-width: 2560px) {
+  .card__row {
+    padding-left: 7rem;
+    margin-top: -1rem;
+  }
+  .col__img {
+    margin-right: -13rem !important;
+  }
+}
