@@ -555,6 +555,10 @@ p {
     text-align: center;
   }
 
+  .card__row {
+    padding-left: 5rem;
+  }
+
   .attention__card > h2 {
     font-size: 2rem !important;
     text-align: center;
@@ -614,5 +618,14 @@ p {
   iframe {
     width: 150px;
     height: 100px;
+  }
+}
+
+/* large laptops and desktops */
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1900px) {
+  .card__row {
+    padding-left: 7rem;
+    margin-top: -1rem;
   }
 }
