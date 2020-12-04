@@ -637,7 +637,7 @@ p {
 
 /* very large screen to 4k */
 
-@media only screen and (min-device-width: 1643px) and (max-device-width: 1899px) {
+@media only screen and (min-device-width: 1643px) and (max-device-width: 1900px) {
   .card__row {
     padding-left: 7rem;
     margin-top: -1rem;
