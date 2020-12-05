@@ -343,6 +343,9 @@ a > img {
   width: 30rem;
 }
 
+.ml-5new {
+  margin-left: 7rem;
+}
 .ml-6 {
   margin-left: 20rem;
 }
@@ -646,23 +649,22 @@ p {
   }
 }
 
-/* large laptops and desktops */
-
-@media only screen and (min-device-width: 1440px) and (max-device-width: 1900px) {
-  .card__row {
-    padding-left: 7rem;
-    margin-top: -1rem;
+@media only screen and (min-device-width: 992px) and (max-device-width: 1550px) {
+  .img__wrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .col__img {
+    margin: 0 3rem;
   }
 }
 
-/* very large screen to 4k */
-
-@media only screen and (min-device-width: 1643px) and (max-device-width: 1900px) {
-  .card__row {
-    padding-left: 7rem;
-    margin-top: -1rem;
+@media only screen and (min-device-width: 1448px) and (max-device-width: 1900px) {
+  .ml-5new {
+    margin-left: 17rem;
   }
-  .col__img {
-    margin-right: -13rem !important;
+
+  .profile__img {
+    width: 150rem;
   }
 }
