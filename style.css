@@ -149,6 +149,10 @@ a > img {
 .col__img {
   transition: 0.2s all;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
 }
 
 .img__wrapper:hover .col__img {
