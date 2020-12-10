@@ -139,10 +139,12 @@ h1 > span {
   padding-bottom: 3rem;
 }
 
-.col__img > img {
+form > input[type="image"] {
   width: 25rem;
 }
-
+.img:focus {
+  outline: none;
+}
 a > img {
   width: 25rem;
 }
